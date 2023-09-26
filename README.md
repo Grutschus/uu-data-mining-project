@@ -1,9 +1,10 @@
+# Project Proposal
+
 Authors:
 
 - Till Grutschus
 - Jurek Sander
-
-# Project Proposal
+- Ricardo Lammert Zepeda
 
 ## Research Question
 <!-- The research question is clearly stated at the beginning, in non-technical terms -->
@@ -23,7 +24,7 @@ By answering this question, we hope to provide a tool that can help researchers,
 
 To adress this question, we will use data from the arXiv repository found here: <https://www.kaggle.com/Cornell-University/arxiv>.
 
-Additionally, we will use citation data extracted from the public API of crossref.org.
+Additionally, we will use citation data extracted from crossref.org.
 
 In the following we will briefly describe the two datasets.
 
@@ -41,7 +42,7 @@ We expect the most relevant attributes for our project to be:
 A detailed feature analysis will be part of the project.
 
 **crossref.org**
-Crossref offers a publicly available API to access citation data. We will use this API to extract citation data for the publications in the arXiv dataset.
+Crossref offers a publicly available API to access citation data. Additionally, data dumps of the crossref database are available for download.
 
 We will use the number of citations to extract a ground truth for the impact of a publication.
 
