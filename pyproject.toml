@@ -5,3 +5,9 @@ target-version = ['py311']
 [tool.pylint]
 disable = "C0114,C0115,C0116"
 max-line-length = 80
+
+[notebook]
+ignored-messages = [
+    "E1101",  # ignore undefined variable errors
+    "C0304"
+]
