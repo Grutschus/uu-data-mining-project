@@ -160,3 +160,8 @@ cython_debug/
 #.idea/
 
 .DS_Store
+
+dataset/arxiv_raw.parquet
+dataset/citation_raw.parquet
+dataset/arxiv-metadata-oai-snapshot.json
+dataset/coci-citation-count-2023-01-05.csv
