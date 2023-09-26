@@ -1,0 +1,7 @@
+[tool.black]
+line-length = 79
+target-version = ['py311']
+
+[tool.pylint]
+disable = "C0114,C0115,C0116"
+max-line-length = 80
